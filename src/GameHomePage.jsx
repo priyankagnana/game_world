@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import typingSound from "./assets/typing.mp3";
 import homepageAudio from "./assets/HomePageAudio.mp3";
 import backgroundVideo from "./assets/HomePageBackground.mp4";
-import "./GameHomepage.css";
+import "./GameHomePage.css";
 
 const GameHomepage = ({setCurrentPage}) => {
   const text = "Welcome to the game world";
