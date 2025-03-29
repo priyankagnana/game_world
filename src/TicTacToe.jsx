@@ -3,7 +3,7 @@ import "./TicTacToe.css";
 import doraemon from "./assets/Doraemon.jpg";
 import pikachu from "./assets/pikachu.png";
 import TicTacToeAud from "./assets/TicTacToeAud.mp3";
-import TicTacToeBg from "./assets/TicTacToeBg.jpeg";
+import TicTacToeBg from "./assets/TicTacToebg.jpeg";
 
 function TicTacToe({ setCurrentPage }) {
   const [board, setBoard] = useState(Array(9).fill(null));
